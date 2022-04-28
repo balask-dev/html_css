@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    input[type=text],textarea {
+      width: 30%;
+      padding: 12px;
+      border: 1px solid rgb(12, 12, 12);
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+    }
+    
+    input[type=submit] {
+      background-color: rgb(230, 142, 28);
+      color: rgb(255, 255, 255);
+      padding: 12px 20px;
+      border: none;
+    }
+  
+    .container {
+      background-color: #daeca6;
+      padding: 20px;
+    }
+    </style>
+<body>
+    
+    <div>
+        <h3>Contact Form</h3>
+
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="Type Your firstname here.." required="yes"><br>
+        
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lastname" placeholder="Your lastname here.." required="yes"><br>
+        
+            <label for="Email">Email</label><br>
+            <input id="country" type="text" name="Email" required="yes"><br>
+              
+        
+            <label for="subject">Tell us about your queries</label><br>
+            <textarea id="subject" type="text" name="Tell us about your queries<" placeholder="Enter your queires" required="yes" ></textarea><br>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </div>
+
+</body>
+</html>
